@@ -5,7 +5,7 @@
 
 A platform designed to support crowdfunding for environmental initiatives such as tree planting, cleanups, and renewable energy projects. This platform ensures transparency and accountability by utilizing smart contracts for milestone-based fund releases and community-driven governance.
 
-## Problem Statement
+## ❓ Problem Statement
 
 Environmental projects face challenges such as:
 - **Lack of Transparency**: Donors lack visibility into how funds are used.
@@ -14,7 +14,7 @@ Environmental projects face challenges such as:
 - **Engagement Gap**: Donors are often disconnected from the project's progress.
 - **Inefficiencies in Fund Distribution**: Funds are often released in a lump sum without milestones.
 
-## Solution Overview
+## 💡 Solution Overview
 
 The platform addresses these challenges by offering:
 - **Milestone-Based Fund Release**: Smart contracts ensure funds are released only when predefined milestones are met, improving transparency and accountability.
@@ -22,14 +22,14 @@ The platform addresses these challenges by offering:
 - **Decentralized Governance**: Community involvement through a DAO model for voting on project proposals, approving milestones, and governance decisions.
 - **Global Accessibility**: Donations in cryptocurrency or stablecoins, enabling participation from anywhere in the world with low fees.
   
-## Key Features
+## 🛠️ Key Features
 - **Crowdfunding Platform**: Projects are created with clear goals, required funding, and milestones.
 - **Smart Contract Integration**: Funds are released based on milestone verification.
 - **Transparency Dashboard**: Real-time updates and visibility into project progress.
 - **Incentivized Community**: Token rewards for participation in funding, voting, and verification.
 - **Global Donations**: Accepts cryptocurrency and stablecoin donations for global participation.
 
-## Tech Stack
+## 💻 Tech Stack
 - **Frontend**: Next.js, React, TypeScript, Tailwind CSS, Shadcn/ui
 - **Backend**: Node.js (Express), Prisma, Supabase, Aptos TypeScript SDK
 - **Blockchain**: Aptos for smart contracts and decentralized transactions
@@ -38,11 +38,13 @@ The platform addresses these challenges by offering:
 - **Database**: Supabase/PostgreSQL for project and user data management
 - **Real-Time**: Supabase real-time data syncing for project updates
 
-## Screenshots
-![image](https://github.com/user-attachments/assets/824de0f8-cd83-4c7d-9a33-333fb126af22)
+## 📷 Screenshots
+### Explore Events
+![image](https://github.com/user-attachments/assets/85bba6d3-ece1-4e35-8c3b-fc0792b21a2a)
 
+---
 
-## Getting Started
+## 🚀 Getting Started
 
 1. **Clone the repository**:
    ```bash
