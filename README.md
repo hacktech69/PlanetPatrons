@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PlanetPatrons: Crowdfunded Environmental Project
+
+![PlanetPatrons Banner](https://github.com/user-attachments/assets/a6a37614-81dd-4c1d-9911-5a692577f666)
+
+
+A platform designed to support crowdfunding for environmental initiatives such as tree planting, cleanups, and renewable energy projects. This platform ensures transparency and accountability by utilizing smart contracts for milestone-based fund releases and community-driven governance.
+
+## Problem Statement
+
+Environmental projects face challenges such as:
+- **Lack of Transparency**: Donors lack visibility into how funds are used.
+- **Limited Accountability**: Funds may not be used as intended without proper oversight.
+- **Difficulty Securing Funds**: Trust issues and lack of verified impact can deter contributors.
+- **Engagement Gap**: Donors are often disconnected from the project's progress.
+- **Inefficiencies in Fund Distribution**: Funds are often released in a lump sum without milestones.
+
+## Solution Overview
+
+The platform addresses these challenges by offering:
+- **Milestone-Based Fund Release**: Smart contracts ensure funds are released only when predefined milestones are met, improving transparency and accountability.
+- **Transparent Verification**: Integrating geotagged images, satellite imagery, IoT devices, and third-party validators to confirm progress.
+- **Decentralized Governance**: Community involvement through a DAO model for voting on project proposals, approving milestones, and governance decisions.
+- **Global Accessibility**: Donations in cryptocurrency or stablecoins, enabling participation from anywhere in the world with low fees.
+  
+## Key Features
+- **Crowdfunding Platform**: Projects are created with clear goals, required funding, and milestones.
+- **Smart Contract Integration**: Funds are released based on milestone verification.
+- **Transparency Dashboard**: Real-time updates and visibility into project progress.
+- **Incentivized Community**: Token rewards for participation in funding, voting, and verification.
+- **Global Donations**: Accepts cryptocurrency and stablecoin donations for global participation.
+
+## Tech Stack
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS, Shadcn/ui
+- **Backend**: Node.js (Express), Prisma, Supabase, Aptos TypeScript SDK
+- **Blockchain**: Aptos for smart contracts and decentralized transactions
+- **File Storage**: IPFS for decentralized file storage
+- **Authentication**: Lucia for session management and Aptos Wallet Adapter for wallet integration
+- **Database**: Supabase/PostgreSQL for project and user data management
+- **Real-Time**: Supabase real-time data syncing for project updates
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/824de0f8-cd83-4c7d-9a33-333fb126af22)
+
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/crowdfunded-environmental-projects.git
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Install dependencies**:
+   ```bash
+   cd planetpatrons
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Set up environment variables**:
+   Create a `.env.local` file and add your credentials and API keys.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. **Visit the platform** at `http://localhost:3000`
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Feel free to fork this repository and submit pull requests. Please ensure your code adheres to the project's style guide and includes appropriate tests for any new functionality.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Acknowledgments
+- Aptos for providing blockchain infrastructure
+- IPFS for decentralized file storage
+- Tailwind CSS for rapid UI development
